@@ -1,50 +1,46 @@
-/**
- * Add the correct display in IE 10-.
- */
-
-[hidden] {
-  display: none;
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/* Accessibility
- * ========================================================================== */
-
-/**
- * Change the cursor on busy elements in all browsers (opinionated).
- */
-
-[aria-busy="true"] {
-  cursor: progress;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
-/*
- * Change the cursor on control elements in all browsers (opinionated).
- */
-
-[aria-controls] {
-  cursor: pointer;
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #fff;
+  color: #333333;
 }
 
-/*
- * Change the cursor on disabled, not-editable, or otherwise
- * inoperable elements in all browsers (opinionated).
- */
-
-[aria-disabled="true"],
-[disabled] {
-  cursor: not-allowed;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-/*
- * Change the display on visually hidden accessible elements
- * in all browsers (opinionated).
- */
-
-[aria-hidden="false"][hidden] {
-  display: initial;
+ul,
+ol {
+  list-style: none;
+  padding: 0px;
 }
 
-[aria-hidden="false"][hidden]:not(:focus) {
-  clip: rect(0, 0, 0, 0);
-  position: absolute;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
 }
