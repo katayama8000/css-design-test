@@ -1,0 +1,50 @@
+/* header */
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* main */
+main {
+  //background-color: #f5f5;
+}
+
+.container {
+  /*背景画像は高さを持たないため、heightの指定が必要*/
+  height: 1000px;
+  /*相対パスで画像ファイルを指定*/
+  background-image: url(../img/house1.jpeg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+.main-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 3.2rem;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
