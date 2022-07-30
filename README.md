@@ -78,5 +78,8 @@ https://saruwakakun.com/html-css/basic/max-min-width
 
 https://www.sejuku.net/blog/56401
 
+### 擬似要素タグbeforeとafter
+https://www.asobou.co.jp/blog/web/before-after
+
 
 
